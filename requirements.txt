@@ -1,0 +1,6 @@
+chromadb
+sentence-transformers
+pydantic
+pytest
+fastapi
+uvicorn
