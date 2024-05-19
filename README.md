@@ -71,7 +71,7 @@ curl -X POST "http://localhost:8000/insert_document/<YourCollectionName>" -H "Co
 
 ### 3. Document Update
 ```bash
-curl -X PUT "http://localhost:8000/update_document/<YourCollectionName>" -H "Content-Type: application/json" -d '{"document_id": "YourDocumentID", "new_text": "<enter New text here>"}'
+curl -X PUT "http://localhost:8000/update_document/<YourCollectionName>" -H "Content-Type: application/json" -d '{"document_id": "<YourDocumentID>", "new_text": "<enter New text here>"}'
 ```
 
 ### 4. Document Deletion
